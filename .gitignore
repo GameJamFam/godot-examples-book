@@ -5,6 +5,7 @@
 # Comments out exports since required for CICD
 # export.cfg
 # export_presets.cfg
+*.import
 
 # Output
 build/
