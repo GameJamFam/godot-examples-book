@@ -1,12 +1,11 @@
-.godot
+.godot/
 
 # Godot-specific ignores
 .import/
-
-# Commented out exports since required for CICD
+# Comments out exports since required for CICD
 # export.cfg
 # export_presets.cfg
-
+*.import
 
 # Output
 build/
