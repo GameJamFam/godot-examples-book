@@ -3,7 +3,7 @@ on: push
 
 env:
   GODOT_VERSION: 3.3.4
-  EXPORT_NAME: "Coin Dash"
+  EXPORT_NAME: "Coin\ Dash"
   # ITCHIO_USERNAME: gamejamfam
   # ITCHIO_GAME: test-deploy
   # BUTLER_API_KEY: ${{ secrets.ITCH_IO_API_KEY }}
