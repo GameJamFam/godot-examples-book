@@ -14,7 +14,7 @@ func _ready():
 	screensize = get_viewport().get_visible_rect().size
 	$Player.screensize = screensize
 	$Player.hide()
-	$FMODInstance.init()
+	# $FMODInstance.init()
 
 func _process(delta):
 	if playing and $CoinContainer.get_child_count() == 0:
@@ -51,8 +51,8 @@ func _on_GameTimer_timeout():
 func _on_Player_pickup():
 	score += 1
 	$HUD.update_score(score)
-	$FMODInstance.play('coin', { pitchMod=min(score/100.0, 1) })
-	# $CoinSound.play()
+	# $FMODInstance.play('coin', { pitchMod=min(score/100.0, 1) })
+	$CoinSound.play()
 
 func _on_Player_hurt():
 	game_over()
